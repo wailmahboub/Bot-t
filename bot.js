@@ -11,7 +11,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Gta Mods By Wail`,"http://twitch.tv/Death Shop")
+client.user.setGame(`invite Rewards || $Bc`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
@@ -144,18 +144,18 @@ client.on("message", async message => {
     }
 });
 client.on("message", async message => {
-    if(message.content.startsWith(prefix + "help")) {
+    if(message.content.startsWith(${prefix} + "help")) {
         let help = new Discord.RichEmbed()
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
             .setDescription(`**__برودكاست بوت | Version 1.1__ 
 
-            برودكاست عادي : ${prefix}bc
-            دعوة البوت لسيرفرك : ${prefix}invite
-            معلومات عن السيرفر : ${prefix}server
-            برودكاست للأونلاين فقط : ${prefix}bco
-            يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
-            رابط سيرفر انفت ريوارد : https://discord.gg/SeN9GHH
+            Standard Broadcast : ${prefix}bc
+            Call Bot for Surfcock : ${prefix}invite
+            Information about the server : ${prefix}server
+            Broadcast for online only : ${prefix}bco
+Shows you the number of followers of your server: ${prefix}banned
+            Server link: https://discord.gg/SeN9GHH
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
