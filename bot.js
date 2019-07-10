@@ -148,14 +148,14 @@ client.on("message", async message => {
         let help = new Discord.RichEmbed()
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
-            .setDescription(`**__Broadcast Bot| Version 1.1__ 
+            .setDescription(`**__Broadcast Bot| Invite Rewards__ 
 
-            برودكاست عادي : ${prefix}bc
-            دعوة البوت لسيرفرك : ${prefix}invite
-            معلومات عن السيرفر : ${prefix}server
-            برودكاست للأونلاين فقط : ${prefix}bco
-            يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
-            رابط سيرفر انفت ريوارد : https://discord.gg/SeN9GHH
+            Normal Broadcast : ${prefix}bc
+            Invite The Bot In Your Server : ${prefix}invite
+            Information about us: ${prefix}server
+            Broadcast for online only: ${prefix}bco
+            Number Of Bans : ${prefix}banned
+            Server Link : https://discord.gg/SeN9GHH
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
