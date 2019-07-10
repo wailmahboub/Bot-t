@@ -148,14 +148,14 @@ client.on("message", async message => {
         let help = new Discord.RichEmbed()
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
-            .setDescription(`**__Broadcast Bot| Invite Rewards__ 
+            .setDescription(`**__Molcom_ BOT| Invite Rewards__ 
 
             Normal Broadcast : ${prefix}bc
             Invite The Bot In Your Server : ${prefix}invite
             Information about us: ${prefix}server
             Broadcast for online only: ${prefix}bco
             Number Of Bans : ${prefix}banned
-            Server Link : https://discord.gg/SeN9GHH
+            Server Link : https://discord.gg/yp6EE5Q
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
